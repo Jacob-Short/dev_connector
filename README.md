@@ -47,6 +47,8 @@ signing in for access to private pages:
 (https://github.com/auth0/node-jsonwebtoken)
 find info at (https://jwt.io/)
 
+### TODO:
+Create User Model - 9
 
 __References__=
 https://www.udemy.com/course/mern-stack-front-to-back/
