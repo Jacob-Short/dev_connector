@@ -1,31 +1,29 @@
 # Dev-Connector
 
-__Authors__= Jacob Short
-
 ### Full Stack Application utilizing React, Redux & Node.js
-(MERN Stack)
-
-
-### Environment & Setup:
-
-Node.js - (https://nodejs.org/en/)
-Postman - Test our API (https://www.postman.com/)
-
-### Developer Tools:
-React Dev Tools -(https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-Redux Devtools - (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
-
-
 
 ### Created NOSQL Data Base with MongoDB.
 Document database very similar to json objects.
 Easy to manage, no installs. 
 Cross-compatable.
 
+## Getting Started
 
-### MongoDB Atlas - (https://www.mongodb.com/cloud/atlas)
-Created cluster using AWS and Oregon Region.
-(512 MB 'development environment')
+These instructions will give you a copy of the project up and running on
+your local machine for development and testing purposes. See deployment
+for notes on deploying the project on a live system.
+
+### Prerequisites
+
+Requirements for the software and other tools to build, test and push 
+- [Node.js] - (https://nodejs.org/en/)
+- [npm] - (https://www.npmjs.com/)
+
+### Developer Tools:
+[React Dev Tools] -(https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+[Redux Devtools] - (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+[Postman] - Test our API (https://www.postman.com/)
+
 
 ### Collections => Tables
 Using mongoose to interact with our DB
@@ -47,8 +45,36 @@ signing in for access to private pages:
 (https://github.com/auth0/node-jsonwebtoken)
 find info at (https://jwt.io/)
 
-### TODO:
-Create User Model - 9
+### Installing
 
-__References__=
-https://www.udemy.com/course/mern-stack-front-to-back/
+A step by step series of examples that tell you how to get a development
+environment running
+
+
+Install dependencies
+
+    npm i
+
+Start server
+
+    npm run server
+
+
+## Built With
+
+  - [React](https://reactjs.org/)
+  - [Express](https://expressjs.com/)
+  - [Node](https://nodejs.org/en/) 
+
+
+## Authors
+
+  - **Jacob Short** 
+
+
+  - **Billie Thompson** - *Provided README Template* -
+    [PurpleBooth](https://github.com/PurpleBooth)
+
+  - **Brad Traversy** - *Tutorial* - 
+    (https://www.udemy.com/course/mern-stack-front-to-back/)
+
